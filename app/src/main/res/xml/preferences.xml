@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        app:key="@string/preference_key_use_legacy_advertising"
+        app:title="@string/preference_title_use_legacy_advertising"
+        app:summary="@string/preference_summary_use_legacy_advertising"
+        app:defaultValue="true"
+        />
+
+</PreferenceScreen>
